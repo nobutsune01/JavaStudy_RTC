@@ -20,19 +20,20 @@ public class Task1_2 {
          *   1番目（先頭）の要素に 「りんご」 を代入
          *   2番目の要素に 「もも」 を代入
          *   3番目の要素に 「ぶどう」 を代入
-         */  String[] strArray = new String[3]; 
+         */  
+         String[] strArray = new String[3]; 
          strArray[0] = "りんご";
          strArray[1] = "もも";
          strArray[2] = "ぶどう";
         // ④ ③で作成した配列の3番目の要素を出力しなさい。
          System.out.println(strArray[2] );
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-         *  [10,20,30,40,50を要素の値とする配列　intArrayを作成している]
+         *  [10,20,30,40,50を要素の値とする配列　要素数５のintArrayという変数名で int[]型を宣言している]
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
         
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [一番目の要素と５番目の要素を出力している]
+        // [０と４の値を出力している]
         System.out.println(intArray[0] + intArray[4]);
 
     }
